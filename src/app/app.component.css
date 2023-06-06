@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+  }
+  
+  .left-panel {
+    min-width: 400px ;
+    padding: 20px;
+    background-color: #f0f0f0;
+    
+    
+  }
+
+  .wrap-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 600px;
+  }
+  
+  .form-field {
+    margin: 10px 0;
+    cursor: move;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 150px;
+  }
+
+  .text-input{
+    margin: 10px 0;
+    cursor: move;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 150px;
+  }
+  
+  
+  .right-panel {
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+  }
+  
+  canvas {
+    border: 1px solid #ccc;
+    width: 20vw;
+  }
+
+.sidebar div{
+  margin: 10px;
+    cursor: move;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+  .heading{
+    text-align: center;
+    box-shadow: inset;
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px; 
+  }
+
+  
